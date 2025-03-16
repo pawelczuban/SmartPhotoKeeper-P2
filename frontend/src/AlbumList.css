@@ -1,0 +1,25 @@
+.album-card {
+  cursor: pointer;
+}
+
+.album-card .card-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.album-card .edit-icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #6c757d;
+  transition: background-color 0.3s;
+}
+
+.album-card .edit-icon:hover {
+  background-color: #e9ecef;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 350px;
+}

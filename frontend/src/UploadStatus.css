@@ -1,0 +1,19 @@
+.upload-status {
+  margin-top: 20px;
+}
+
+.file-status {
+  margin-bottom: 15px;
+}
+
+.progress {
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 20px;
+  background-color: #007bff;
+  transition: width 0.3s;
+}

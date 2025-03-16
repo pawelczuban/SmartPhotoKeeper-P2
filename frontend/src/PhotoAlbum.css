@@ -1,0 +1,21 @@
+.scrollable {
+  max-height: calc(100vh - 120px);
+  overflow-y: scroll;
+  position: relative;
+
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+.scrollable::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
+}
+
+.drag-drop-placeholder {
+  cursor: pointer;
+  border: 3px dashed #6c757d; /* Gray dashed border */
+  color: #6c757d;
+  min-height: calc(100vh - 120px);
+  padding: 20px;
+  transition: background-color 0.3s ease;
+}

@@ -1,0 +1,4 @@
+.nav-pills li a:hover {
+  background-color: rgb(61, 61, 243);
+  cursor: pointer;
+}

@@ -1,0 +1,16 @@
+/* EditIcon.css */
+.edit-icon {
+  border-radius: 50%; /* Makes it circular */
+  width: 40px; /* Fixed width */
+  height: 40px; /* Fixed height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  z-index: 10; /* Ensure it's on top */
+  transition: background 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.edit-icon:hover {
+  background: rgba(255, 255, 255, 0.5); /* Increased opacity on hover */
+}
